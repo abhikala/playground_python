@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import math
-#
+
 print("\n********************************************************\n")
 def check_prime(num):
     #print("check_prime num = ",num)
@@ -22,7 +19,7 @@ def check_prime(num):
     else:
         print(num, "is NOT a prime number")
     return result
-#
+
 wantmore = True
 while(wantmore):
     number = int(input('Enter a number: '))
@@ -39,10 +36,3 @@ while(wantmore):
         print("\nERROR! ..Exiting")
         break
 print("\n********************************************************\n")
-
-
-# In[ ]:
-
-
-
-
